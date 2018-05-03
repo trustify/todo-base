@@ -2,7 +2,7 @@ import React from "react";
 import Modal from "react-responsive-modal";
 import Form from "./Form"
 
-const styles = {
+const styles = { // very basic styles for modal
     fontFamily: "sans-serif",
     textAlign: "center"
 };

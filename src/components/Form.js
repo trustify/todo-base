@@ -1,5 +1,9 @@
 import React from 'react';
 
+/**
+ * Class representing a Form.
+ * @extends Component of React
+ */
 class Form extends React.Component {
   constructor(props) {
     super(props);
@@ -10,12 +14,12 @@ class Form extends React.Component {
 
   handleChange(event) {
     this.setState({ value: event.target.value });
-    console.log("handleChange");
+    console.log("This is the handleChange method.");
   }
 
   handleSubmit(event) {
-    alert('A name was submitted: ' + this.state.value);
-    console.log("handleSubmit");
+    alert(this.state.value + ' submitted an entry.');
+    console.log("This is the handleSubmit method.");
     event.preventDefault();
   }
 

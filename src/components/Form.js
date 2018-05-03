@@ -29,13 +29,13 @@ class Form extends React.Component {
         <label>
           Rating:
 					<select>
-            ref={select => this.petType = select}
+            ref={select => this.moodType = select}
             name="moodType">>
-						<option value="grapefruit">Insuffecent</option>
-            <option value="lime">Needs Improvement</option>
-            <option selected value="coconut">Doing Fine</option>
-            <option value="mango">Decent</option>
-            <option value="mango">Amazing</option>
+						<option value="Insufficent">Insuffecent</option>
+            <option value="Needs Improvement">Needs Improvement</option>
+            <option selected value="Doing Fine">Doing Fine</option>
+            <option value="Decent">Decent</option>
+            <option value="Amazing">Amazing</option>
           </select>
         </label><br />
         <label>

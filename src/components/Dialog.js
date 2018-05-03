@@ -1,5 +1,6 @@
 import React from "react";
 import Modal from "react-responsive-modal";
+import Form from "./Form"
 
 const styles = {
     fontFamily: "sans-serif",
@@ -32,6 +33,7 @@ export default class Dialog extends React.Component {
                 <Modal open={open} onClose={this.onCloseModal} little>
                     <h2>How are you feeling today?</h2> 
                     <p>Below is an area for leaving feedback. From the select dropdown and input, please leave your name and a review. Thank you!</p>
+                    <Form />
                 </Modal> 
             </div>
         );
